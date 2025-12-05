@@ -7,7 +7,7 @@ console.log(result341);
 
 
 const result35 = require("./demo.cjs")
-const result351 = result35([
+const result351 = getActiveIds([
   { name: "Ali", value: "123abc456" },
   { name: "Gulsara", value: "789xyz012" },
 ]);
@@ -17,12 +17,12 @@ console.log(result35);
 
 
 const result36 = require("./demo.cjs")
-const result361 = result36(["red", "blue", "green", "red", "blue", "red"])
+const result361 = calculateDividedSum(["red", "blue", "green", "red", "blue", "red"])
 console.log(result361);
 
 
 const result37 = require("./demo.cjs")
-const result371 = result37([
+const result371 = formatAddresses([
   { amount: "50.99$", date: "2024-11-15" },
   { amount: "100.50$", date: "2024-11-16" },
   { amount: "75.25$", date: "2024-11-17" },
@@ -33,7 +33,7 @@ console.log(result371);
 
 
 const result38 = require("./demo.cjs")
-const result381 = result38("   hello   world   javascript   ")
+const result381 = getDiscountedPrices("   hello   world   javascript   ")
 console.log(result38);
 
 
