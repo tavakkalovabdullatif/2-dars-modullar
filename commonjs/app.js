@@ -1,7 +1,7 @@
 const { getUsernames, getActiveIds, calculateDividedSum, formatAddresses, getDiscountedPrices, getAcronym, extractNumbers, getUniqueColors, getTotalAmount, cleanMessage, getElectronicsProducts, formatUserProfiles, filterAndSum, addTenToOddNumbers, getTeamRoster, toCamelCase, getAverageHighScores, formatWords, adjustInventory, getLongNames } = require("./demo.cjs")
 
 const result34 = require("./demo.cjs")
-const result341 =  result34("The quick brown fox jumps over the lazy dog");
+const result341 =  getUsernames("The quick brown fox jumps over the lazy dog");
 console.log(result341);
 
 
